@@ -1,7 +1,3 @@
-# Test
+# Jonathon Lopes Personal Website
 
-This will be my personal websitee repo
-
-## Second Test
-
-Testing
+This is my personal website and portfolio
