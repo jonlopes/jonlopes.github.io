@@ -46,6 +46,50 @@ body {
   color: #555;
 }
 
+/* HEADER SECTION */
+.top-nav {
+  border: 1px solid rgb(4, 152, 16);
+  border-width: 1px 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: 4rem;
+}
+.top-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+  align-items: center;
+  position: absolute;
+  top: 2rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.top-nav-element {
+  display: inline;
+}
+
+.top-nav-link:link,
+.top-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+  padding: 1rem;
+}
+
+.top-nav-link:hover,
+.top-nav-link:active {
+  display: inline-block;
+  color: blueviolet;
+  padding: 1rem;
+}
+
+/* HERO SECTION */
+
 .hero {
   background-image: url("/img/bg.png");
 }
