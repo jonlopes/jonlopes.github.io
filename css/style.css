@@ -15,12 +15,11 @@
 
      COLORS
 
-     Primary:
-     Tints:
-     Accents:
-     Greys:
-     #555
-     #333
+     #253D58
+     #c9A959
+     #f8f8ff
+     #cfceca
+     #ac8181
 
      SHADOWS
 
@@ -53,7 +52,7 @@ body {
 
 /* HEADER SECTION */
 .top-nav {
-  border: 1px solid rgb(4, 152, 16);
+  border: 1px solid #253d58;
   border-width: 1px 0;
   list-style: none;
   margin: 0;
@@ -79,7 +78,7 @@ body {
 .top-nav-link:visited {
   display: inline-block;
   text-decoration: none;
-  color: #333;
+  color: #f8f8ff;
   font-weight: 500;
   font-size: 1.8rem;
   transition: all 0.3s;
@@ -89,7 +88,7 @@ body {
 .top-nav-link:hover,
 .top-nav-link:active {
   display: inline-block;
-  color: blueviolet;
+  color: #c9a954;
   padding: 1rem;
 }
 
@@ -98,7 +97,7 @@ body {
   top: 0;
   bottom: 0;
   width: 100%;
-  background-color: orangered;
+  background-color: #253d58;
   z-index: 999;
   height: 4rem;
   padding-top: 0;
@@ -110,11 +109,14 @@ body {
 
 .hero {
   background-image: url("/img/bg.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .hero-img-box {
   padding-top: 20rem;
-  max-width: 130rem;
 }
 
 .heading-primary {
@@ -139,7 +141,9 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 30%;
+  max-width: 25rem;
+  border-radius: 50%;
+  border: 10px solid #f8f8ff;
 }
 
 .part1 {
