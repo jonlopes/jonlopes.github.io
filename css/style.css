@@ -19,6 +19,7 @@
      #c9A959
      #f8f8ff
      #cfceca
+     #edeeef
      #ac8181
 
      SHADOWS
@@ -108,7 +109,12 @@ body {
 /* HERO SECTION */
 
 .hero {
-  background-image: url("/img/bg.png");
+  background-image: 
+  /* top, transparent black, faked with gradient */ linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("/img/bg.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -123,7 +129,7 @@ body {
   font-size: 5.2rem;
   font-weight: 700;
   line-height: 1.05;
-  color: #333;
+  color: #f8f8ff;
   letter-spacing: -0.25px;
   margin-top: 2.4rem;
   margin-bottom: 0.8rem;
@@ -135,6 +141,7 @@ body {
   line-height: 1.5;
   padding-bottom: 4.8rem;
   text-align: center;
+  color: #f8f8ff;
 }
 
 .hero-img {
@@ -156,4 +163,65 @@ body {
   background-color: aquamarine;
   height: 40rem;
   font-size: 3rem;
+}
+
+/* About */
+
+.above-about {
+  background-color: #f8f8ff;
+}
+
+.sec-about {
+  height: 40rem;
+  font-size: 3rem;
+  background-color: #f8f8ff;
+  color: #253d58;
+}
+
+/* Education */
+
+.above-education {
+  background-color: #edeeef;
+}
+
+.sec-education {
+  height: 40rem;
+  font-size: 3rem;
+  background-color: #edeeef;
+}
+
+/* Skills */
+
+.above-skills {
+  background-color: #f8f8ff;
+}
+
+.sec-skills {
+  height: 40rem;
+  font-size: 3rem;
+  background-color: #f8f8ff;
+}
+
+/* Procjects */
+
+.above-projects {
+  background-color: #edeeef;
+}
+
+.sec-projects {
+  height: 40rem;
+  font-size: 3rem;
+  background-color: #edeeef;
+}
+
+/* Contact */
+
+.above-contact {
+  background-color: #f8f8ff;
+}
+
+.sec-contact {
+  height: 40rem;
+  font-size: 3rem;
+  background-color: #f8f8ff;
 }
